@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.npy
+*.pkl
+*.pt
+results/
+benchmarks/
+*.lib
+

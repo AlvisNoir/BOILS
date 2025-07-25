@@ -1,0 +1,21 @@
+index,seq_id,ratio_lut,ratio_level,both
+1,&dsdb | &sopb | rewrite -z | &sopb | balance | fraig | rewrite -z | &sopb | &sopb | resub -z,1.6355765446674537,0.6585365853658537,2.2941131300333075
+2,fraig | refactor | resub | refactor | &sopb | refactor | &sopb | rewrite -z | resub | refactor -z,1.395513577331759,0.6747967479674797,2.0703103252992388
+3,&sopb | &dsdb | &sopb | refactor | resub | rewrite -z | rewrite | fraig | &sopb | fraig,1.491538764266037,0.6666666666666666,2.1582054309327035
+4,rewrite | rewrite -z | refactor -z | &dsdb | rewrite | resub -z | balance | refactor | rewrite | rewrite,1.0200708382526564,0.8617886178861789,1.8818594561388353
+5,rewrite -z | rewrite -z | refactor -z | fraig | balance | refactor -z | balance | &dsdb | &dsdb | balance,1.0172176308539944,0.8536585365853658,1.8708761674393601
+6,rewrite -z | refactor -z | &blut | resub -z | &blut | &blut | fraig | resub -z | fraig | resub,0.9793388429752066,1.024390243902439,2.0037290868776454
+7,refactor -z | refactor | &blut | rewrite | rewrite -z | resub -z | &sopb | balance | refactor -z | rewrite -z,1.2456709956709957,0.7154471544715447,1.9611181501425405
+8,&blut | &blut | resub | &blut | &dsdb | resub | resub | &dsdb | resub | &dsdb,1.0668044077134986,0.8373983739837398,1.9042027816972384
+9,refactor | resub -z | fraig | rewrite -z | refactor | refactor | &blut | refactor -z | &blut | refactor,0.9918339236521054,1.024390243902439,2.0162241675545447
+10,refactor | resub | rewrite | balance | resub -z | &sopb | &dsdb | rewrite | balance | refactor,1.127607241243605,0.7154471544715447,1.8430543957151495
+11,rewrite -z | refactor | &blut | resub -z | refactor -z | &blut | &blut | resub -z | fraig | resub,0.9880952380952381,1.024390243902439,2.012485481997677
+12,rewrite -z | refactor -z | &blut | fraig | resub -z | &blut | refactor | &blut | fraig | resub,0.9822904368358913,1.024390243902439,2.0066806807383304
+13,rewrite -z | refactor -z | &blut | resub -z | &blut | resub -z | fraig | fraig | fraig | resub,0.9877016922471468,1.024390243902439,2.0120919361495857
+14,rewrite -z | refactor -z | &blut | resub -z | &blut | &blut | fraig | &blut | fraig | resub -z,0.9817001180637545,1.024390243902439,2.0060903619661934
+15,fraig | rewrite -z | refactor -z | resub -z | &blut | &blut | fraig | resub -z | fraig | resub,0.9845533254624164,1.024390243902439,2.008943569364855
+16,rewrite -z | refactor -z | &blut | resub -z | &blut | &blut | fraig | fraig | refactor | resub -z,0.9871113734750099,1.024390243902439,2.0115016173774487
+17,rewrite -z | refactor -z | &blut | resub -z | &blut | &blut | fraig | resub -z | resub | &blut,0.9829791420700512,1.024390243902439,2.00736938597249
+18,rewrite -z | refactor -z | &blut | &blut | fraig | &blut | fraig | resub -z | fraig | resub,0.9872097599370326,1.024390243902439,2.0116000038394715
+19,rewrite -z | refactor -z | &blut | resub -z | &blut | &blut | fraig | resub -z | refactor | &blut,0.9828807556080283,1.024390243902439,2.0072709995104674
+20,rewrite -z | refactor -z | &blut | resub -z | &blut | &blut | refactor | &blut | fraig | resub -z,0.9777646595828414,1.024390243902439,2.0021549034852804
